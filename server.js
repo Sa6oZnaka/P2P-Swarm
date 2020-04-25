@@ -47,9 +47,7 @@ const sw = Swarm(config)
 
     sw.listen(port);
     console.log('Listening to port: ' + port);
-
     sw.join('P2P-Swarm'); // change it
-    askUser();
 
     sw.on('connection', (conn, info) => {
         const seq = connSeq;
@@ -85,4 +83,6 @@ const sw = Swarm(config)
     });
 
 })();
+
+askUser();
 
