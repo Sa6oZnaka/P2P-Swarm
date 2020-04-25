@@ -1,0 +1,10 @@
+{
+  "name": "P2P-Swarm",
+  "version": "1.0.0",
+  "dependencies": {
+    "dat-swarm-defaults": "latest",
+    "discovery-swarm": "latest",
+    "express": "^4.17.1",
+    "get-port": "latest"
+  }
+}
